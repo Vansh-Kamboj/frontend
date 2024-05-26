@@ -1,0 +1,44 @@
+.left-grid {
+    width:19.5%;
+    height: 100%;
+    align-items: center;
+    background-color: #CDEAFF;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .left-grid .item {
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 90%; 
+    padding: 10px;
+    color: #333; /* Text color */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between slabs */
+    margin-bottom: 10px; /* Add margin to separate from top slab */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+    white-space: nowrap; 
+  }
+  .top-slab {
+    width: 100%; /* Full width */
+    padding: 10px;
+    background-color: hwb(212 31% 15%); /* Example background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add margin to separate from data slabs */
+    text-align: center;
+    margin-top: 10px;
+       /* Add margin to separate from data slabs */
+  } 

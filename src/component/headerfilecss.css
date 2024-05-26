@@ -1,0 +1,10 @@
+.custom-appbar {
+    border-radius: 10px; /* Add rounded edges */
+    background-color:hwb(212 68% 7%); /* Set your desired background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  .custom-appbar .MuiTypography-root {
+    color: white; /* Set text color to white */
+  }
+  

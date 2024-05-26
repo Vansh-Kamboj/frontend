@@ -1,0 +1,47 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.card1 {
+    width: 300px;
+    margin: 10px;
+    background-color: #0dabdb;
+    /* Light purple background */
+    border: 1px solid #ffffff;
+    /* Light purple border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    text-align: center;
+    color: white;
+    /* White text color */
+}
+
+.upload-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    /* White icon color */
+}
+
+.spinner {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

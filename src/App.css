@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  height: 90vh;
+  padding: 5px 5px 5px;
+  background-color: #ebebe4;
+}

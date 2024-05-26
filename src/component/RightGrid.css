@@ -1,0 +1,79 @@
+.right-grid {
+    width: 19%;
+    height: 100%;
+    background-color: #CDEAFF;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .header {
+    background-color: #cae4f9a6;;
+    width: 92%; /* Full width */
+    padding: 2px; 
+    color: #000000bd; /* Text color */
+    border: none;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-right: 2px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add margin to separate from data slabs */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .slab {
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 25px;
+    cursor: pointer;
+    position: relative; /* Add position relative */
+  }
+  
+  .options {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 95%;
+    max-height: 300px;
+    overflow-y: auto;
+    right: 0; /* Align to right */
+    bottom: calc(100% + 5px); /* Position from bottom of slab */
+    transform: translateY(100%); /* Move options box up */
+    z-index: 999;
+  }
+  
+  .option {
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .class-slab {
+    background-color: lightblue;
+  }
+  
+  .subject-slab {
+    background-color: lightblue;
+  }
+  
+  .chapter-slab {
+    background-color: lightblue;
+  }
+  
+  .board-slab {
+    background-color: lightblue;
+  }
